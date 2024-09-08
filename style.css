@@ -1,0 +1,53 @@
+body {
+    color: rgb(0, 0, 0);
+    background-image: url('img/imagem3.jpeg'); /* Caminho para a imagem de fundo */
+    background-size: cover; /* Faz a imagem cobrir toda a área visível */
+    background-repeat: no-repeat; /* Impede a repetição da imagem */
+    background-position: center; /* Centraliza a imagem */
+    margin: 0px;
+    font-family: "Chakra Petch", sans-serif;
+    margin-bottom: 200px;
+    color: white;
+    font-family: "Bai Jamjuree", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+    margin: 0;
+    font-size: 25px;/* Ajuste o valor para o tamanho desejado */
+    
+}
+
+button {
+    font-size: 15px; /* Aumenta o tamanho do texto dentro do botão */
+    padding: 20px 40px; /* Aumenta o espaço dentro do botão */
+    background-color: #000653; /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    border: none; /* Remove a borda padrão */
+    border-radius: 12px; /* Arredonda os cantos */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    transition: background-color 0.3s; /* Adiciona uma transição suave ao passar o mouse */
+  }
+  
+  button {
+    background-color: #023150; /* Muda a cor do botão ao passar o mouse */
+  }
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display:block;
+}
+
+main {
+    text-align: center;
+    max-width: 70%;
+}
+
+img {
+    max-width: 1000%;
+}
+
+h1 { font-size: 25px;/* Ajuste o valor para o tamanho desejado */}
